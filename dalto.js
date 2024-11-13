@@ -1,3 +1,8 @@
+let roue = document.getElementById("#roue");
+function roue_tourne(){
+    roue.classList.add("active");
+}
+
 var colorWell;
 var colorTextInput;
 var defaultColor = getRandomColor(); // Valeur initiale pour la couleur par défaut
